@@ -6,13 +6,13 @@ TIMESTAMP=$(date +%Y-%m-%d_%Hh%Mm%Ss)
 NCPU=8 #number of CPU, can be set to any number
 
 #can be customized very easily
-if [ ! -d "02-demultiplex/" ]  ; then  
+if [ ! -d "03-demultiplexed_files/" ]  ; then  
     echo "creation du dossier" ; 
-    mkdir 02-demultiplex/; 
+    mkdir 03-demultiplexed_files/; 
 fi
 
-outfile="02-demultiplex"
-folder="01-data/cutadapt"
+outfile="03-demultiplexed_files"
+folder="02-raw/cutadapt"
 path="./GBSX/releases/GBSX_v1.3"
 barcode="your_barcodes.txt"
 rad="-rad true"
