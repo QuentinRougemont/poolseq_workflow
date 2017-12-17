@@ -2,7 +2,7 @@
 
 # Global variables
 GENOMEFOLDER="08-genome"
-GENOME="probes-RAPTURE-9818"
+GENOME="your_genome"
 DATAFOLDER="04-all_samples"
 NCPU=$1
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 path=00-scripts/popoolation2/
-folder="06-popoolation"
+folder="05-popoolation"
 
 in="--input "$folder"/pool.sync"
 out="--output-prefix "$folder"/pool_all"

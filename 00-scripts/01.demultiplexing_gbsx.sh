@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#this script might not be uesfull for POOL if one run = one pool
 #script to run gbsx
 #see full documentation at: https://github.com/GenomicsCoreLeuven/GBSX
 TIMESTAMP=$(date +%Y-%m-%d_%Hh%Mm%Ss)

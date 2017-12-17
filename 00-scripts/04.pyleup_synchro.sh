@@ -1,7 +1,7 @@
 #!/bin/bash
 
 path=00-scripts/popoolation2/
-folder="06-popoolation"
+folder="05-popoolation"
 
 in="--input"
 out="--output"
