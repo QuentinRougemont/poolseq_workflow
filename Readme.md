@@ -3,7 +3,7 @@
 
 ## Poolseq pipeline for GBS or WGS
 
-#Dependencies:
+## Dependencies:
 
 `cutadapt` available [here](http://cutadapt.readthedocs.io/en/stable/guide.html)
 
@@ -15,5 +15,7 @@
 
 `gbsx` available [here](https://github.com/GenomicsCoreLeuven/GBSX)
 
+## How to to run the pipeline
 
 More info soon...
+
