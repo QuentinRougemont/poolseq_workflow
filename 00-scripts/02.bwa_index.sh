@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Global variables
-GENOMEFOLDER="08-genome"
+GENOMEFOLDER="06-genome"
 GENOME="your_genome"
 NCPU=$1
 

@@ -3,10 +3,10 @@
 #module load samtools/1.3
 
 # Global variables
-DATAOUTPUT="11-gsnap"
+DATAOUTPUT="07-gsnap"
 DATAINPUT="04-all_samples"
-GENOMEFOLDER="08-genome"
-GENOME="gmap_lobster"
+GENOMEFOLDER="06-genome"
+GENOME="gmap_genome"
 
 base=$( awk '{print $1}' 01-info_files/population_map.txt )
 for i in $base ; 

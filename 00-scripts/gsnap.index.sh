@@ -1,8 +1,8 @@
 module load gmap/2016-06-09
 
 # Global variables
-GENOMEFOLDER="./08-genome"
-FASTA="08-genome/genome.fasta"
+GENOMEFOLDER="./06-genome"
+FASTA="06-genome/genome.fasta"
 GENOME="gmap_genome"
 
 #prepare the genome
