@@ -14,6 +14,7 @@ then
 fi
 
 input1=$( ls 02-raw/*R1.*.gz | sed -e 's/02-raw\///g' )
+input2=$(echo "$input1" | perl -pe 's/R1/R2/')
 adapter="-a AGATCGGAAGAGCG" #name of the first adapter
 adapter2="-A AGACCGATCAGAAC" #name of the second adapter 
 error="-e 0.1" #error rate 
